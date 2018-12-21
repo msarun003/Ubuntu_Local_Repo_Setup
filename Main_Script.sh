@@ -1,11 +1,11 @@
 #!/bin/bash
 #This Script is to Mirror Online Ubuntu LTS Repository with Local Drive.
-#Script Name	 : ubuntu_lts_repo.sh
-#Dated 			  : December 2018
-#Author 		  : M.S. Arun (538880) / DCS-UNIX-OPS-Team
-#Email 			  : arun.ms3@cognizant.com
-#Usage			  : ./ubuntu_lts_repo.sh
-#Last Update	: December 2018
+#Script Name		: ubuntu_lts_repo.sh
+#Dated 				: December 2018
+#Author 			: M.S. Arun (538880) / DCS-UNIX-OPS-Team
+#Email 				: arun.ms3@cognizant.com
+#Usage				: ./ubuntu_lts_repo.sh
+#Last Update		: December 2018
 
 
 #****************************************************************** Start of Script ********************************************************************#
