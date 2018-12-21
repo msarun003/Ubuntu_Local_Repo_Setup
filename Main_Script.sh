@@ -22,9 +22,11 @@ rm -rf "$backup_directory" > /dev/null 2>&1
 
 mkdir -p $base_dir/ubuntu_lts/ubuntu/
 
+#Distros Declarations
 distro_list=("trusty" "trusty-security" "trusty-updates" "trusty-backports" "xenial" "xenial-security" "xenial-updates" "xenial-backports" "bionic" "bionic-security" "bionic-updates" "bionic-backports")
 repo_list=("main" "multiverse" "restricted" "universe")
 
+#Main Program
 for ((i=0;i<"${#distro_list[*]}";i++)); do
 distro_name="${distro_list[$i]}"
 wget --mirror --no-parent --reject "*index.html*" http://archive.ubuntu.com/ubuntu/dists/$distro_name/ -P $base_dir/ubuntu_lts/
